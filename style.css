@@ -101,8 +101,8 @@ body::-webkit-scrollbar-thumb{
   display: flex;
   flex-direction: row;
   gap: 1.9375rem;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   flex-shrink: 0;
 }
 @media screen and (max-width: 800px) {
