@@ -2,6 +2,10 @@
   font-family: DarkerGrotesque-SemiBold;
   src: url(DarkerGrotesque-SemiBold.ttf);
 }
+@font-face {
+  font-family: DarkerGrotesque-Bold;
+  src: url(DarkerGrotesque-Bold.ttf);
+}
 .block-chain,
 .block-chain * {
   box-sizing: border-box;
@@ -123,10 +127,11 @@ body::-webkit-scrollbar-thumb{
 .access-the-power-of-blockchain {
   color: #ffffff;
   text-align: left;
-  font-family: "DarkerGrotesque-SemiBold", sans-serif;
+  font-family: "DarkerGrotesque-Bold";
   font-size: 90px;
-  line-height: 110%;
-  font-weight: 600;
+  line-height: 100%;
+  font-size:6.5rem;
+  font-weight: 800;
   position: relative;
   width: 52.5vw;
 }
@@ -136,6 +141,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 600;
     width: 100vw;
     height: 100px;
+    line-height: 110%;
   }
   #parent{
     display: block;
@@ -706,7 +712,7 @@ body::-webkit-scrollbar-thumb{
   text-align: left;
   font-family: "DarkerGrotesque-Regular", sans-serif;
   font-size: 2.5rem;
-  line-height: 2.3625rem;
+  line-height: 2.8625rem;
   font-weight: 400;
   position: relative;
   width: 18.125rem;
@@ -729,7 +735,13 @@ body::-webkit-scrollbar-thumb{
   line-height: 1.70625rem;
   font-weight: 400;
   position: relative;
-  width: 21rem;
+  width: 18rem;
+}
+@media screen and (max-width:800px) {
+  .ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard{
+    width: 21rem;
+  }
+
 }
 .frame3 {
   display: flex;
@@ -739,6 +751,7 @@ body::-webkit-scrollbar-thumb{
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+  left: 25px;
 }
 @media screen and (max-width:800px) {
   .frame3{
@@ -746,6 +759,7 @@ body::-webkit-scrollbar-thumb{
     justify-content: center;
     align-items: center;
     width: 86vw;
+    left: 0;
   }
 }
 .frame4 {
@@ -880,15 +894,20 @@ body::-webkit-scrollbar-thumb{
   padding: 0.5625rem 0.625rem 0.5625rem 1.3125rem;
   display: flex;
   flex-direction: row;
-  gap: 0;
+  gap: 2.8125rem;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+  left: 25px;
 }
 @media screen and (max-width:800px) {
-  
+  .frame8{
+    gap: 0;
+    padding: 0.5625rem 0.625rem 0.5625rem 1.3125rem;
+    left: 0;
+  }
 }
 .lorem-ipsum-is-simply-standard {
   color: #848895;
