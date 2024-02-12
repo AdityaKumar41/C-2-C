@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vars.css" />
+    <link rel="stylesheet" href="./style2.css" />
+
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        appearance: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .sidebar {
+    height: 0;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: linear-gradient( 180deg,rgba(104, 67, 236, 0.973) 0%, rgba(211, 236, 67, 0.986) 100% );
+    overflow-y: auto; /* Enable scrolling if needed */
+    transition: height 0.5s;
+    box-sizing: border-box;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+.sidebar.active {
+    height: 170px; /* Expand to fixed size when active */
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+#border {
+    display: inline-block;
+    border-left: 2px solid transparent;
+    animation: typing 2s steps(10, end), blink-caret 0.75s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: bottom;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="block-chain">
+      <img class="image" src="image0.gif" />
+      <div class="ellipse-32"></div>
+      <div class="ellipse-33"></div>
+      <div class="frame-114">
+        <div class="frame-113">
+          <div class="frame-112">
+            <div class="frame-111">
+              <div class="picture-mt-9">
+                <div class="div"></div>
+              </div>
+            </div>
+            <div class="div-client">
+              <div class="frame">
+                <div class="frame-12">
+                  <img class="image-2" src="image-20.png" />
+                </div>
+                <div class="frame-2">
+                  <img class="image-3" src="image-30.png" />
+                </div>
+                <div class="frame-3">
+                  <img class="image-4" src="image-40.png" />
+                </div>
+                <div class="frame-4">
+                  <img class="image-5" src="image-50.png" />
+                </div>
+                <div class="frame-5">
+                  <img class="image-6" src="image-60.png" />
+                </div>
+                <div class="frame-6">
+                  <img class="image-7" src="image-70.png" />
+                </div>
+                <div class="frame-7">
+                  <img class="image-8" src="image-80.png" />
+                </div>
+              </div>
+              <div
+                class="powering-tools-and-integrations-from-companies-all-around-the-world"
+              >
+                Powering tools and integrations from companies all around the
+                world
+              </div>
+            </div>
+            <div class="new-frame2">
+
+              <div class="h-1-leading-1-1">
+                <div class="lorem-collaborative-ar-ipsum">
+                  Lorem, Collaborative, AR-Ipsum
+                </div>
+                <div class="content-management">Content Management</div>
+              </div>
+              <div class="paragraph">
+                <div
+                  class="ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum"
+                >
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum
+                </div>
+                <div class="ipsum-is-simply-dummy-text-of-the-printing">
+                  Ipsum is simply dummy text of the printing
+                </div>
+              </div>
+              <div class="link-disabled-cursor-not-allowed">
+                <div class="get-started">Get Started</div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-108">
+            <div class="frame2">
+              <div class="rectangle"></div>
+              <div class="frame-107">
+                <div class="frame-106">
+                  <div class="explore-the-power-of-blockchain">
+                    Explore the power of
+                    <br />
+                    Blockchain
+                  </div>
+                  <div
+                    class="ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard"
+                  >
+                    Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry&#039;s standard
+                  </div>
+                </div>
+                <div class="frame3">
+                  <div class="frame4">
+                    <div class="rectangle2">
+                    <div class="you-tube">YouTube</div>
+                    <svg
+                      class="frame5"
+                      width="26"
+                      height="19"
+                      viewBox="0 0 26 19"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_1_80)">
+                        <path
+                          d="M24.8338 3.53696C24.5497 2.47094 23.7129 1.63151 22.65 1.34662C20.7239 0.828857 12.9999 0.828857 12.9999 0.828857C12.9999 0.828857 5.276 0.828857 3.34976 1.34662C2.28707 1.63151 1.45006 2.47094 1.16604 3.53696C0.649902 5.46901 0.649902 9.50009 0.649902 9.50009C0.649902 9.50009 0.649902 13.5312 1.16604 15.4634C1.45006 16.5293 2.28707 17.3687 3.34976 17.6537C5.276 18.1714 12.9999 18.1714 12.9999 18.1714C12.9999 18.1714 20.7239 18.1714 22.65 17.6537C23.7129 17.3687 24.5497 16.5293 24.8338 15.4634C25.3499 13.5312 25.3499 9.50009 25.3499 9.50009C25.3499 9.50009 25.3499 5.46901 24.8338 3.53696Z"
+                          fill="#ED1D24"
+                        />
+                        <path
+                          d="M10.4734 13.1601L16.9291 9.50029L10.4734 5.84015V13.1601Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_80">
+                          <rect width="26" height="19" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  </div>
+                  <div class="frame4">
+                    <div class="rectangle2">
+                    <div class="podcast">Podcast</div>
+                    <svg
+                      class="frame6"
+                      width="25"
+                      height="24"
+                      viewBox="0 0 25 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_1_86)">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M23.4402 20.4497C23.2163 21.0186 22.6995 21.8196 21.9666 22.3839C21.5435 22.7098 21.0383 23.0213 20.3445 23.2268C19.6049 23.446 18.6938 23.5201 17.5599 23.5201H7.19194C6.05811 23.5201 5.14706 23.446 4.40732 23.2268C3.71345 23.0213 3.2084 22.7098 2.78519 22.3839C2.05241 21.8196 1.53554 21.0187 1.31157 20.4497C0.860535 19.3035 0.855957 18.003 0.855957 17.184V6.81599C0.855957 5.99704 0.860535 4.69648 1.31167 3.5503C1.53563 2.98143 2.05241 2.18043 2.78528 1.61622C3.2084 1.29034 3.71355 0.978846 4.40732 0.773287C5.14706 0.554085 6.05811 0.480011 7.19194 0.480011H17.56C18.6938 0.480011 19.6049 0.554085 20.3446 0.773287C21.0384 0.978846 21.5435 1.29044 21.9667 1.61622C22.6995 2.18052 23.2164 2.98143 23.4403 3.5503C23.8913 4.69648 23.896 5.99704 23.896 6.81599V17.1839C23.896 18.003 23.8913 19.3035 23.4402 20.4497Z"
+                          fill="url(#paint0_linear_1_86)"
+                        />
+                        <path
+                          d="M14.046 13.723C13.7004 13.3583 13.0931 13.1244 12.3762 13.1244C11.6592 13.1244 11.0519 13.3583 10.7063 13.723C10.5259 13.9134 10.4304 14.1084 10.4004 14.3865C10.3423 14.9248 10.3749 15.3882 10.438 16.1293C10.4981 16.8355 10.6122 17.7771 10.7611 18.7361C10.867 19.4187 10.9531 19.787 11.0315 20.0509C11.1586 20.4784 11.6335 20.8522 12.3762 20.8522C13.1188 20.8522 13.5937 20.4783 13.7208 20.0509C13.7993 19.7871 13.8854 19.4188 13.9913 18.7361C14.1403 17.7771 14.2542 16.8356 14.3143 16.1293C14.3773 15.3882 14.41 14.9247 14.3518 14.3865C14.3219 14.1084 14.2265 13.9135 14.046 13.723ZM10.4925 10.4749C10.4925 11.5164 11.3367 12.3606 12.3781 12.3606C13.4194 12.3606 14.2636 11.5164 14.2636 10.4749C14.2636 9.43361 13.4194 8.58931 12.3781 8.58931C11.3367 8.58931 10.4925 9.43361 10.4925 10.4749ZM12.3547 3.03354C7.94461 3.04608 4.33117 6.62372 4.27651 11.0334C4.23228 14.6055 6.51248 17.6612 9.69658 18.7811C9.77395 18.8084 9.85242 18.7443 9.84015 18.6632C9.79849 18.3859 9.75912 18.1071 9.72286 17.833C9.71004 17.7362 9.64833 17.6527 9.55878 17.6136C7.04217 16.5141 5.28471 13.99 5.31291 11.0664C5.34991 7.22941 8.48291 4.10144 12.3199 4.0704C16.2423 4.03872 19.4434 7.22035 19.4434 11.1356C19.4434 14.03 17.6937 16.523 15.1965 17.6138C15.1072 17.6529 15.0458 17.7367 15.0331 17.8333C14.9969 18.1073 14.9575 18.3859 14.9158 18.6631C14.9037 18.7441 14.9821 18.8083 15.0594 18.781C18.2131 17.6718 20.48 14.6637 20.48 11.1356C20.4802 6.66034 16.8329 3.0209 12.3547 3.03354ZM12.2084 6.75072C14.7082 6.65385 16.7729 8.65953 16.7729 11.1383C16.7729 12.399 16.2387 13.5371 15.385 14.3386C15.3127 14.4066 15.2737 14.5031 15.2794 14.6022C15.2964 14.9038 15.2901 15.1967 15.2701 15.5276C15.2647 15.6157 15.3636 15.6721 15.4365 15.6223C16.8681 14.644 17.8096 12.9992 17.8096 11.1382C17.8096 8.07417 15.2574 5.59492 12.1673 5.71469C9.29545 5.82593 6.99135 8.19375 6.95463 11.0674C6.93046 12.9576 7.87778 14.6319 9.32768 15.6226C9.40046 15.6723 9.49908 15.6157 9.49376 15.5278C9.47362 15.1967 9.46749 14.9037 9.48443 14.6022C9.48992 14.5032 9.4511 14.4068 9.37877 14.3388C8.49848 13.5124 7.95789 12.3279 7.99232 11.0205C8.05293 8.71942 9.90809 6.83982 12.2084 6.75072Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <linearGradient
+                          id="paint0_linear_1_86"
+                          x1="12.376"
+                          y1="0.480011"
+                          x2="12.376"
+                          y2="23.52"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#F452FF" />
+                          <stop offset="1" stop-color="#832BC1" />
+                        </linearGradient>
+                        <clipPath id="clip0_1_86">
+                          <rect
+                            width="24"
+                            height="24"
+                            fill="white"
+                            transform="translate(0.375977)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="frame7">
+              <div class="rectangle"></div>
+              <div class="frame-105">
+                <div class="frame-104">
+                  <div class="connect-through-the-blockchain">
+                    Connect through the Blockchain
+                  </div>
+                  <div
+                    class="ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard2"
+                  >
+                    Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry&#039;s standard
+                  </div>
+                </div>
+                <form action="sample.html">
+                <div class="frame8">
+                  <div class="lorem-ipsum-is-simply-standard">
+                    <input type="text" placeholder="Lorem ipsum is simply standard" required>
+                  </div>
+                  <div class="frame9">
+                    <div class="rectangle3"></div>
+                    <button class="let-s-talk" >Let’s Talk</button>
+                  </div>
+                </div>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-order-1">
+          <div class="td">
+            <div class="paragraph2">
+              <div class="cheers">Cheers,</div>
+              <div class="the-acme-team">The ACME Team</div>
+            </div>
+            <div class="link">
+              <div class="get-started2">Get Started</div>
+            </div>
+            <div class="paragraph3">
+              <div class="we-re-excited-to-have-you-onboard-at-acme-we-hope-you">
+                <span>
+                  <span
+                    class="we-re-excited-to-have-you-onboard-at-acme-we-hope-you-span"
+                  >
+                    We&#039;re excited to have you onboard at
+                  </span>
+                  <span
+                    class="we-re-excited-to-have-you-onboard-at-acme-we-hope-you-span2"
+                  >
+                    ACME
+                  </span>
+                  <span
+                    class="we-re-excited-to-have-you-onboard-at-acme-we-hope-you-span3"
+                  >
+                    . We hope you
+                  </span>
+                </span>
+              </div>
+              <div
+                class="enjoy-your-journey-with-us-if-you-have-any-questions-or-need"
+              >
+                enjoy your journey with us. If you have any questions or need
+              </div>
+              <div class="assistance-feel-free-to-reach-out">
+                assistance, feel free to reach out.
+              </div>
+            </div>
+            <div class="hello-newuser">Hello newuser,</div>
+            <div class="welcome-to-acme-user">
+              <span>
+                <span class="welcome-to-acme-user-span">Welcome to</span>
+                <span class="welcome-to-acme-user-span2">ACME</span>
+                <span class="welcome-to-acme-user-span3">, user!</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-115">
+        <div class="logo-container">
+          <div class="logo"><a href="index.html"><img src="image-20.png" alt=""></a></div>
+          <div class="header-nav"><img id="menu-icon" src="icons8-menu-bar-40.png" alt="header-icons"></div>
+          <div id="sidebar" class="sidebar">
+            <a href="join-us.html">Join us 🤝</a>
+            <a href="#">Build 🎯</a>
+            <a href="#">Product 🛍️</a>
+            <a href="#">Community💡</a>
+        </div>
+        </div>
+        <div class="frame16">
+          <div class="frame17">
+            <div class="frame18">
+              <svg
+                class="group9"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.2931 8.29296C17.3853 8.19745 17.4957 8.12127 17.6177 8.06886C17.7397 8.01645 17.8709 7.98886 18.0037 7.98771C18.1365 7.98655 18.2681 8.01186 18.391 8.06214C18.5139 8.11242 18.6256 8.18667 18.7195 8.28056C18.8134 8.37446 18.8876 8.48611 18.9379 8.60901C18.9882 8.7319 19.0135 8.86358 19.0123 8.99636C19.0112 9.12914 18.9836 9.26036 18.9312 9.38236C18.8788 9.50437 18.8026 9.61471 18.7071 9.70696L12.7071 15.707C12.5248 15.8892 12.2793 15.9941 12.0216 15.9997C11.7639 16.0053 11.514 15.9111 11.3241 15.737L5.32407 10.237C5.12861 10.0577 5.01237 9.80808 5.00093 9.54309C4.99527 9.41188 5.0155 9.28084 5.06048 9.15745C5.10546 9.03407 5.1743 8.92074 5.26307 8.82396C5.35185 8.72718 5.45881 8.64882 5.57787 8.59338C5.69692 8.53793 5.82573 8.50648 5.95694 8.50082C6.22193 8.48938 6.48061 8.58367 6.67607 8.76296L11.9701 13.616L17.2931 8.29296Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="build">Build</div>
+          </div>
+          <div class="frame19">
+            <div class="frame20">
+              <svg
+                class="group10"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.2931 8.29296C17.3853 8.19745 17.4957 8.12127 17.6177 8.06886C17.7397 8.01645 17.8709 7.98886 18.0037 7.98771C18.1365 7.98655 18.2681 8.01186 18.391 8.06214C18.5139 8.11242 18.6256 8.18667 18.7195 8.28056C18.8134 8.37446 18.8876 8.48611 18.9379 8.60901C18.9882 8.7319 19.0135 8.86358 19.0123 8.99636C19.0112 9.12914 18.9836 9.26036 18.9312 9.38236C18.8788 9.50437 18.8026 9.61471 18.7071 9.70696L12.7071 15.707C12.5248 15.8892 12.2793 15.9941 12.0216 15.9997C11.7639 16.0053 11.514 15.9111 11.3241 15.737L5.32407 10.237C5.12861 10.0577 5.01237 9.80808 5.00093 9.54309C4.99527 9.41188 5.0155 9.28084 5.06048 9.15745C5.10546 9.03407 5.1743 8.92074 5.26307 8.82396C5.35185 8.72718 5.45881 8.64882 5.57787 8.59338C5.69692 8.53793 5.82573 8.50648 5.95694 8.50082C6.22193 8.48938 6.48061 8.58367 6.67607 8.76296L11.9701 13.616L17.2931 8.29296Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="community">Community</div>
+          </div>
+          <div class="frame21">
+            <div class="frame22">
+              <svg
+                class="group11"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.2931 8.29296C17.3853 8.19745 17.4957 8.12127 17.6177 8.06886C17.7397 8.01645 17.8709 7.98886 18.0037 7.98771C18.1365 7.98655 18.2681 8.01186 18.391 8.06214C18.5139 8.11242 18.6256 8.18667 18.7195 8.28056C18.8134 8.37446 18.8876 8.48611 18.9379 8.60901C18.9882 8.7319 19.0135 8.86358 19.0123 8.99636C19.0112 9.12914 18.9836 9.26036 18.9312 9.38236C18.8788 9.50437 18.8026 9.61471 18.7071 9.70696L12.7071 15.707C12.5248 15.8892 12.2793 15.9941 12.0216 15.9997C11.7639 16.0053 11.514 15.9111 11.3241 15.737L5.32407 10.237C5.12861 10.0577 5.01237 9.80808 5.00093 9.54309C4.99527 9.41188 5.0155 9.28084 5.06048 9.15745C5.10546 9.03407 5.1743 8.92074 5.26307 8.82396C5.35185 8.72718 5.45881 8.64882 5.57787 8.59338C5.69692 8.53793 5.82573 8.50648 5.95694 8.50082C6.22193 8.48938 6.48061 8.58367 6.67607 8.76296L11.9701 13.616L17.2931 8.29296Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="join-us">Join us</div>
+          </div>
+          <div class="frame23">
+            <div class="frame24">
+              <svg
+                class="group12"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17.2931 8.29296C17.3853 8.19745 17.4957 8.12127 17.6177 8.06886C17.7397 8.01645 17.8709 7.98886 18.0037 7.98771C18.1365 7.98655 18.2681 8.01186 18.391 8.06214C18.5139 8.11242 18.6256 8.18667 18.7195 8.28056C18.8134 8.37446 18.8876 8.48611 18.9379 8.60901C18.9882 8.7319 19.0135 8.86358 19.0123 8.99636C19.0112 9.12914 18.9836 9.26036 18.9312 9.38236C18.8788 9.50437 18.8026 9.61471 18.7071 9.70696L12.7071 15.707C12.5248 15.8892 12.2793 15.9941 12.0216 15.9997C11.7639 16.0053 11.514 15.9111 11.3241 15.737L5.32407 10.237C5.12861 10.0577 5.01237 9.80808 5.00093 9.54309C4.99527 9.41188 5.0155 9.28084 5.06048 9.15745C5.10546 9.03407 5.1743 8.92074 5.26307 8.82396C5.35185 8.72718 5.45881 8.64882 5.57787 8.59338C5.69692 8.53793 5.82573 8.50648 5.95694 8.50082C6.22193 8.48938 6.48061 8.58367 6.67607 8.76296L11.9701 13.616L17.2931 8.29296Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="product">Product</div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="section-mx-auto">
+        <div class="div-md-fade-in-black-mask-group">
+          <div class="mask"></div>
+          <div class="div-md-fade-in-black">
+            <div class="list-group-hover-animation-paused">
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none"></div>
+                  <div class="span-sans">
+                    <div
+                      class="complaints-about-emails-landing-on-spam-anymore"
+                    >
+                      complaints about emails landing on spam anymore.&quot;
+                    </div>
+                    <div
+                      class="deliverability-improved-tremendously-and-we-don-t-hear"
+                    >
+                      deliverability improved tremendously and we don&#039;t
+                      hear
+                    </div>
+                    <div
+                      class="and-reliable-after-we-switched-to-dedicated-i-ps-our"
+                    >
+                      and reliable. After we switched to Dedicated IPs, our
+                    </div>
+                    <div
+                      class="our-team-loves-resend-it-makes-email-sending-so-easy"
+                    >
+                      &quot;Our team loves Resend. It makes email sending so
+                      easy
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex">
+                      <div class="vlad-matsiiako">Vlad Matsiiako</div>
+                      <div class="co-founder-of-infisical">
+                        Co-founder of Infisical
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image9.png" />
+                          <div class="span-flex2">
+                            <div class="matsiiako">Matsiiako</div>
+                            <div class="vlad">Vlad</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image10.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none2"></div>
+                  <div class="span-sans2">
+                    <div class="experience-you-get-with-resend">
+                      experience you get with Resend.&quot;
+                    </div>
+                    <div
+                      class="come-close-to-providing-the-quality-of-developer"
+                    >
+                      come close to providing the quality of developer
+                    </div>
+                    <div
+                      class="i-ve-used-mailgun-sendgrid-and-mandrill-and-they-don-t"
+                    >
+                      &quot;I&#039;ve used Mailgun, Sendgrid, and Mandrill and
+                      they don&#039;t
+                    </div>
+                  </div>
+                  <div class="div-relative2">
+                    <div class="span-flex3">
+                      <div class="brandon-strittmatter">
+                        Brandon Strittmatter
+                      </div>
+                      <div class="co-founder-of-outerbase">
+                        Co-founder of Outerbase
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative3">
+                          <img class="image4" src="image11.png" />
+                          <div class="span-flex2">
+                            <div class="strittmatter">Strittmatter</div>
+                            <div class="brandon">Brandon</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image12.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none3"></div>
+                  <div class="span-sans3">
+                    <div class="this">this.&quot;</div>
+                    <div
+                      class="are-in-good-hands-with-resend-everyone-should-be-using"
+                    >
+                      are in good hands with Resend. Everyone should be using
+                    </div>
+                    <div
+                      class="over-i-feel-confident-knowing-that-our-important-emails"
+                    >
+                      over. I feel confident knowing that our important emails
+                    </div>
+                    <div
+                      class="resend-is-an-amazing-product-it-was-so-easy-to-switch"
+                    >
+                      &quot;Resend is an amazing product. It was so easy to
+                      switch
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex4">
+                      <div class="shariar-kabir">Shariar Kabir</div>
+                      <div class="founder-at-ruby-card">
+                        Founder at Ruby Card
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image13.png" />
+                          <div class="span-flex2">
+                            <div class="kabir">Kabir</div>
+                            <div class="shariar">Shariar</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image14.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none4"></div>
+                  <div class="span-sans4">
+                    <div class="region-feature-is-a-game-changer-for-us">
+                      region feature is a game-changer for us.&quot;
+                    </div>
+                    <div
+                      class="closest-to-our-users-is-very-important-resend-s-multi"
+                    >
+                      closest to our users is very important. Resend&#039;s
+                      multi-
+                    </div>
+                    <div
+                      class="having-a-solution-that-could-send-emails-from-the-region"
+                    >
+                      having a solution that could send emails from the region
+                    </div>
+                    <div
+                      class="all-of-our-customers-are-located-in-south-america-so"
+                    >
+                      &quot;All of our customers are located in South America,
+                      so
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex5">
+                      <div class="giovanni-keppelen">Giovanni Keppelen</div>
+                      <div class="cto-partner-at-voa-hoteis">
+                        CTO &amp; Partner at VOA Hoteis
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image15.png" />
+                          <div class="span-flex2">
+                            <div class="keppelen">Keppelen</div>
+                            <div class="giovanni">Giovanni</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image16.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none5"></div>
+                  <div class="span-sans5">
+                    <div
+                      class="oh-and-we-also-ended-up-winning-product-of-the-week"
+                    >
+                      Oh and we also ended up winning Product of the week.&quot;
+                    </div>
+                    <div
+                      class="knowledge-of-email-and-relentless-support-day-or-night"
+                    >
+                      knowledge of email and relentless support day or night.
+                    </div>
+                    <div
+                      class="incredible-but-what-really-stood-out-was-their-intricate"
+                    >
+                      incredible, but what really stood out was their intricate
+                    </div>
+                    <div
+                      class="the-speed-and-ease-of-integrating-with-the-product-was"
+                    >
+                      &quot;The speed and ease of integrating with the product
+                      was
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex6">
+                      <div class="sam-ducker">Sam Ducker</div>
+                      <div class="co-founder-of-anyone">
+                        Co-founder of Anyone
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image17.png" />
+                          <div class="span-flex2">
+                            <div class="ducker">Ducker</div>
+                            <div class="sam">Sam</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image18.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none6"></div>
+                  <div class="span-sans6">
+                    <div class="sending-beautiful-emails-that-deliver">
+                      sending beautiful emails that deliver.&quot;
+                    </div>
+                    <div
+                      class="centric-and-helpful-in-terms-of-getting-you-up-and-running"
+                    >
+                      centric and helpful in terms of getting you up and
+                      running,
+                    </div>
+                    <div
+                      class="is-taking-its-so-refreshing-they-are-also-extremely-user"
+                    >
+                      is taking. Its so refreshing. They are also extremely
+                      user-
+                    </div>
+                    <div
+                      class="as-a-developer-i-love-the-approach-that-the-resend-team"
+                    >
+                      &quot;As a developer I love the approach that the Resend
+                      team
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex7">
+                      <div class="hahnbee-lee">Hahnbee Lee</div>
+                      <div class="co-founder-at-mintlify">
+                        Co-Founder at Mintlify
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image19.png" />
+                          <div class="span-flex2">
+                            <div class="lee">Lee</div>
+                            <div class="hahnbee">Hahnbee</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image20.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none7"></div>
+                  <div class="span-sans7">
+                    <div class="experience">experience.&quot;</div>
+                    <div
+                      class="peers-are-raving-about-resend-it-s-such-a-smoother-dev"
+                    >
+                      peers are raving about Resend - it&#039;s such a smoother
+                      dev
+                    </div>
+                    <div
+                      class="that-hasn-t-seen-10-x-innovation-for-years-engineering"
+                    >
+                      that hasn&#039;t seen 10x innovation for years.
+                      Engineering
+                    </div>
+                    <div
+                      class="the-resend-team-have-built-a-great-product-in-a-space"
+                    >
+                      &quot;The Resend team have built a great product in a
+                      space
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex8">
+                      <div class="roberto-riccio">Roberto Riccio</div>
+                      <div class="head-of-product-at-alliance">
+                        Head of Product at Alliance
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image21.png" />
+                          <div class="span-flex2">
+                            <div class="riccio">Riccio</div>
+                            <div class="roberto">Roberto</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image22.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none8"></div>
+                  <div class="span-sans8">
+                    <div class="going-to-love-resend-s-approach-to-emailing">
+                      going to love Resend&#039;s approach to emailing.&quot;
+                    </div>
+                    <div
+                      class="if-you-re-a-developer-or-working-on-a-startup-you-re"
+                    >
+                      &quot;If you&#039;re a developer or working on a startup,
+                      you&#039;re
+                    </div>
+                  </div>
+                  <div class="div-relative3">
+                    <div class="span-flex9">
+                      <div class="joe-de-maria">Joe DeMaria</div>
+                      <div class="co-founder-ceo-of-spec-check">
+                        Co-founder &amp; CEO of SpecCheck
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative4">
+                          <img class="image4" src="image23.png" />
+                          <div class="span-flex2">
+                            <div class="de-maria">DeMaria</div>
+                            <div class="joe">Joe</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image24.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none9"></div>
+                  <div class="span-sans9">
+                    <div class="capabilities-simple-to-say-it-was-a-no-brainer">
+                      capabilities. Simple to say, it was a no-brainer.&quot;
+                    </div>
+                    <div
+                      class="us-a-tremendous-amount-of-visibility-into-our-email"
+                    >
+                      us a tremendous amount of visibility into our email
+                    </div>
+                    <div
+                      class="seamless-to-integrate-into-our-existing-workflow-and-gave"
+                    >
+                      seamless to integrate into our existing workflow and gave
+                    </div>
+                    <div
+                      class="we-were-up-and-running-with-resend-in-no-time-it-was"
+                    >
+                      &quot;We were up and running with Resend in no time. It
+                      was
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex10">
+                      <div class="ty-sharp">Ty Sharp</div>
+                      <div class="co-founder-ceo-of-in-build">
+                        Co-founder &amp; CEO of InBuild
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image25.png" />
+                          <div class="span-flex2">
+                            <div class="sharp">Sharp</div>
+                            <div class="ty">Ty</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image26.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px2">
+                <div class="blockquote">
+                  <div class="div-user-select-none10"></div>
+                  <div class="span-sans10">
+                    <div class="integrates-with-react-email">
+                      integrates with React Email.&quot;
+                    </div>
+                    <div
+                      class="old-api-their-product-is-visually-stunning-and-seamlessly"
+                    >
+                      old API. Their product is visually stunning and seamlessly
+                    </div>
+                    <div
+                      class="valuable-hands-on-support-during-the-transition-from-our"
+                    >
+                      valuable hands-on support during the transition from our
+                    </div>
+                    <div
+                      class="our-expanding-customer-base-but-their-team-also-offered"
+                    >
+                      our expanding customer base, but their team also offered
+                    </div>
+                    <div
+                      class="resend-not-only-streamlines-our-emails-to-accommodate"
+                    >
+                      &quot;Resend not only streamlines our emails to
+                      accommodate
+                    </div>
+                  </div>
+                  <div class="div-relative4">
+                    <div class="span-flex11">
+                      <div class="thiago-costa">Thiago Costa</div>
+                      <div class="co-founder-of-fey-and-narative">
+                        Co-founder of Fey and Narative
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative5">
+                          <img class="image4" src="image27.png" />
+                          <div class="span-flex2">
+                            <div class="costa">Costa</div>
+                            <div class="thiago">Thiago</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image28.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none11"></div>
+                  <div class="span-sans">
+                    <div class="develop-new-emails-is-a-game-changer">
+                      develop new emails is a game-changer.&quot;
+                    </div>
+                    <div
+                      class="react-email-not-having-to-leave-my-dev-environment-to"
+                    >
+                      React Email - not having to leave my dev environment to
+                    </div>
+                    <div
+                      class="resend-we-are-loving-the-development-experience-of"
+                    >
+                      Resend. We are loving the development experience of
+                    </div>
+                    <div
+                      class="as-of-our-last-deployment-all-of-our-emails-are-using"
+                    >
+                      &quot;As of our last deployment all of our emails are
+                      using
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex12">
+                      <div class="adam-rankin">Adam Rankin</div>
+                      <div class="founding-engineer-at-warp">
+                        Founding Engineer at Warp
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image29.png" />
+                          <div class="span-flex2">
+                            <div class="rankin">Rankin</div>
+                            <div class="adam">Adam</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image30.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none12"></div>
+                  <div class="span-sans11">
+                    <div
+                      class="visibility-i-highly-believe-in-the-people-behind-resend"
+                    >
+                      visibility. I highly believe in the people behind
+                      Resend.&quot;
+                    </div>
+                    <div
+                      class="via-segment-and-log-those-events-in-log-snag-for"
+                    >
+                      via Segment and log those events in LogSnag for
+                    </div>
+                    <div
+                      class="webhooks-i-m-able-to-track-email-opened-clicked-events"
+                    >
+                      Webhooks, I&#039;m able to track email opened/clicked
+                      events
+                    </div>
+                    <div class="working-with-resend-has-been-amazing-by-using">
+                      &quot;Working with Resend has been amazing. By using
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex13">
+                      <div class="taylor-facen">Taylor Facen</div>
+                      <div class="founder-of-finta">Founder of Finta</div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image31.png" />
+                          <div class="span-flex2">
+                            <div class="facen">Facen</div>
+                            <div class="taylor">Taylor</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image32.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none13"></div>
+                  <div class="span-sans12">
+                    <div class="never-been-a-fan-of-other-clunky-tools">
+                      Never been a fan of other clunky tools.&quot;
+                    </div>
+                    <div
+                      class="approach-the-team-is-taking-with-supercharging-email"
+                    >
+                      approach the team is taking with supercharging email.
+                    </div>
+                    <div
+                      class="resend-is-super-easy-to-set-up-loving-the-modern"
+                    >
+                      &quot;Resend is super easy to set up. Loving the modern
+                    </div>
+                  </div>
+                  <div class="div-relative2">
+                    <div class="span-flex14">
+                      <div class="brek-goin">Brek Goin</div>
+                      <div class="founder-of-hammr">Founder of Hammr</div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative3">
+                          <img class="image4" src="image33.png" />
+                          <div class="span-flex15">
+                            <div class="brek">Brek</div>
+                            <div class="goin">Goin</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image34.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list-group-hover-animation-paused2">
+              <div class="item-w-350-px3">
+                <div class="blockquote">
+                  <div class="div-user-select-none3"></div>
+                  <div class="span-sans3">
+                    <div class="this">this.&quot;</div>
+                    <div
+                      class="are-in-good-hands-with-resend-everyone-should-be-using"
+                    >
+                      are in good hands with Resend. Everyone should be using
+                    </div>
+                    <div
+                      class="over-i-feel-confident-knowing-that-our-important-emails"
+                    >
+                      over. I feel confident knowing that our important emails
+                    </div>
+                    <div
+                      class="resend-is-an-amazing-product-it-was-so-easy-to-switch"
+                    >
+                      &quot;Resend is an amazing product. It was so easy to
+                      switch
+                    </div>
+                  </div>
+                  <div class="span-flex16">
+                    <div class="shariar-kabir">Shariar Kabir</div>
+                    <div class="founder-at-ruby-card">Founder at Ruby Card</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px3">
+                <div class="blockquote">
+                  <div class="div-user-select-none4"></div>
+                  <div class="span-sans4">
+                    <div class="region-feature-is-a-game-changer-for-us">
+                      region feature is a game-changer for us.&quot;
+                    </div>
+                    <div
+                      class="closest-to-our-users-is-very-important-resend-s-multi"
+                    >
+                      closest to our users is very important. Resend&#039;s
+                      multi-
+                    </div>
+                    <div
+                      class="having-a-solution-that-could-send-emails-from-the-region"
+                    >
+                      having a solution that could send emails from the region
+                    </div>
+                    <div
+                      class="all-of-our-customers-are-located-in-south-america-so"
+                    >
+                      &quot;All of our customers are located in South America,
+                      so
+                    </div>
+                  </div>
+                  <div class="div-relative5">
+                    <div class="span-flex5">
+                      <div class="giovanni-keppelen">Giovanni Keppelen</div>
+                      <div class="cto-partner-at-voa-hoteis">
+                        CTO &amp; Partner at VOA Hoteis
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden2">
+                        <div class="span-relative6">
+                          <img class="image4" src="image35.png" />
+                          <div class="span-flex2">
+                            <div class="keppelen">Keppelen</div>
+                            <div class="giovanni">Giovanni</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image36.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px3">
+                <div class="blockquote">
+                  <div class="div-user-select-none5"></div>
+                  <div class="span-sans5">
+                    <div
+                      class="oh-and-we-also-ended-up-winning-product-of-the-week"
+                    >
+                      Oh and we also ended up winning Product of the week.&quot;
+                    </div>
+                    <div
+                      class="knowledge-of-email-and-relentless-support-day-or-night"
+                    >
+                      knowledge of email and relentless support day or night.
+                    </div>
+                    <div
+                      class="incredible-but-what-really-stood-out-was-their-intricate"
+                    >
+                      incredible, but what really stood out was their intricate
+                    </div>
+                    <div
+                      class="the-speed-and-ease-of-integrating-with-the-product-was"
+                    >
+                      &quot;The speed and ease of integrating with the product
+                      was
+                    </div>
+                  </div>
+                  <div class="div-relative5">
+                    <div class="span-flex6">
+                      <div class="sam-ducker">Sam Ducker</div>
+                      <div class="co-founder-of-anyone">
+                        Co-founder of Anyone
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden2">
+                        <div class="span-relative6">
+                          <img class="image4" src="image37.png" />
+                          <div class="span-flex2">
+                            <div class="ducker">Ducker</div>
+                            <div class="sam">Sam</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image38.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px3">
+                <div class="blockquote">
+                  <div class="div-user-select-none6"></div>
+                  <div class="span-sans6">
+                    <div class="sending-beautiful-emails-that-deliver">
+                      sending beautiful emails that deliver.&quot;
+                    </div>
+                    <div
+                      class="centric-and-helpful-in-terms-of-getting-you-up-and-running"
+                    >
+                      centric and helpful in terms of getting you up and
+                      running,
+                    </div>
+                    <div
+                      class="is-taking-its-so-refreshing-they-are-also-extremely-user"
+                    >
+                      is taking. Its so refreshing. They are also extremely
+                      user-
+                    </div>
+                    <div
+                      class="as-a-developer-i-love-the-approach-that-the-resend-team"
+                    >
+                      &quot;As a developer I love the approach that the Resend
+                      team
+                    </div>
+                  </div>
+                  <div class="div-relative5">
+                    <div class="span-flex7">
+                      <div class="hahnbee-lee">Hahnbee Lee</div>
+                      <div class="co-founder-at-mintlify">
+                        Co-Founder at Mintlify
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden2">
+                        <div class="span-relative6">
+                          <img class="image4" src="image39.png" />
+                          <div class="span-flex2">
+                            <div class="lee">Lee</div>
+                            <div class="hahnbee">Hahnbee</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image40.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none7"></div>
+                  <div class="span-sans7">
+                    <div class="experience">experience.&quot;</div>
+                    <div
+                      class="peers-are-raving-about-resend-it-s-such-a-smoother-dev"
+                    >
+                      peers are raving about Resend - it&#039;s such a smoother
+                      dev
+                    </div>
+                    <div
+                      class="that-hasn-t-seen-10-x-innovation-for-years-engineering"
+                    >
+                      that hasn&#039;t seen 10x innovation for years.
+                      Engineering
+                    </div>
+                    <div
+                      class="the-resend-team-have-built-a-great-product-in-a-space"
+                    >
+                      &quot;The Resend team have built a great product in a
+                      space
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex8">
+                      <div class="roberto-riccio">Roberto Riccio</div>
+                      <div class="head-of-product-at-alliance">
+                        Head of Product at Alliance
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image41.png" />
+                          <div class="span-flex2">
+                            <div class="riccio">Riccio</div>
+                            <div class="roberto">Roberto</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image42.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none8"></div>
+                  <div class="span-sans8">
+                    <div class="going-to-love-resend-s-approach-to-emailing">
+                      going to love Resend&#039;s approach to emailing.&quot;
+                    </div>
+                    <div
+                      class="if-you-re-a-developer-or-working-on-a-startup-you-re"
+                    >
+                      &quot;If you&#039;re a developer or working on a startup,
+                      you&#039;re
+                    </div>
+                  </div>
+                  <div class="div-relative3">
+                    <div class="span-flex9">
+                      <div class="joe-de-maria">Joe DeMaria</div>
+                      <div class="co-founder-ceo-of-spec-check">
+                        Co-founder &amp; CEO of SpecCheck
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative4">
+                          <img class="image4" src="image43.png" />
+                          <div class="span-flex2">
+                            <div class="de-maria">DeMaria</div>
+                            <div class="joe">Joe</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image44.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none9"></div>
+                  <div class="span-sans9">
+                    <div class="capabilities-simple-to-say-it-was-a-no-brainer">
+                      capabilities. Simple to say, it was a no-brainer.&quot;
+                    </div>
+                    <div
+                      class="us-a-tremendous-amount-of-visibility-into-our-email"
+                    >
+                      us a tremendous amount of visibility into our email
+                    </div>
+                    <div
+                      class="seamless-to-integrate-into-our-existing-workflow-and-gave"
+                    >
+                      seamless to integrate into our existing workflow and gave
+                    </div>
+                    <div
+                      class="we-were-up-and-running-with-resend-in-no-time-it-was"
+                    >
+                      &quot;We were up and running with Resend in no time. It
+                      was
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex10">
+                      <div class="ty-sharp">Ty Sharp</div>
+                      <div class="co-founder-ceo-of-in-build">
+                        Co-founder &amp; CEO of InBuild
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image45.png" />
+                          <div class="span-flex2">
+                            <div class="sharp">Sharp</div>
+                            <div class="ty">Ty</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image46.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px2">
+                <div class="blockquote">
+                  <div class="div-user-select-none10"></div>
+                  <div class="span-sans10">
+                    <div class="integrates-with-react-email">
+                      integrates with React Email.&quot;
+                    </div>
+                    <div
+                      class="old-api-their-product-is-visually-stunning-and-seamlessly"
+                    >
+                      old API. Their product is visually stunning and seamlessly
+                    </div>
+                    <div
+                      class="valuable-hands-on-support-during-the-transition-from-our"
+                    >
+                      valuable hands-on support during the transition from our
+                    </div>
+                    <div
+                      class="our-expanding-customer-base-but-their-team-also-offered"
+                    >
+                      our expanding customer base, but their team also offered
+                    </div>
+                    <div
+                      class="resend-not-only-streamlines-our-emails-to-accommodate"
+                    >
+                      &quot;Resend not only streamlines our emails to
+                      accommodate
+                    </div>
+                  </div>
+                  <div class="div-relative4">
+                    <div class="span-flex11">
+                      <div class="thiago-costa">Thiago Costa</div>
+                      <div class="co-founder-of-fey-and-narative">
+                        Co-founder of Fey and Narative
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative5">
+                          <img class="image4" src="image47.png" />
+                          <div class="span-flex2">
+                            <div class="costa">Costa</div>
+                            <div class="thiago">Thiago</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image48.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none11"></div>
+                  <div class="span-sans">
+                    <div class="develop-new-emails-is-a-game-changer">
+                      develop new emails is a game-changer.&quot;
+                    </div>
+                    <div
+                      class="react-email-not-having-to-leave-my-dev-environment-to"
+                    >
+                      React Email - not having to leave my dev environment to
+                    </div>
+                    <div
+                      class="resend-we-are-loving-the-development-experience-of"
+                    >
+                      Resend. We are loving the development experience of
+                    </div>
+                    <div
+                      class="as-of-our-last-deployment-all-of-our-emails-are-using"
+                    >
+                      &quot;As of our last deployment all of our emails are
+                      using
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex12">
+                      <div class="adam-rankin">Adam Rankin</div>
+                      <div class="founding-engineer-at-warp">
+                        Founding Engineer at Warp
+                      </div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image49.png" />
+                          <div class="span-flex2">
+                            <div class="rankin">Rankin</div>
+                            <div class="adam">Adam</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image50.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none12"></div>
+                  <div class="span-sans11">
+                    <div
+                      class="visibility-i-highly-believe-in-the-people-behind-resend"
+                    >
+                      visibility. I highly believe in the people behind
+                      Resend.&quot;
+                    </div>
+                    <div
+                      class="via-segment-and-log-those-events-in-log-snag-for"
+                    >
+                      via Segment and log those events in LogSnag for
+                    </div>
+                    <div
+                      class="webhooks-i-m-able-to-track-email-opened-clicked-events"
+                    >
+                      Webhooks, I&#039;m able to track email opened/clicked
+                      events
+                    </div>
+                    <div class="working-with-resend-has-been-amazing-by-using">
+                      &quot;Working with Resend has been amazing. By using
+                    </div>
+                  </div>
+                  <div class="div-relative">
+                    <div class="span-flex13">
+                      <div class="taylor-facen">Taylor Facen</div>
+                      <div class="founder-of-finta">Founder of Finta</div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative">
+                          <img class="image4" src="image51.png" />
+                          <div class="span-flex2">
+                            <div class="facen">Facen</div>
+                            <div class="taylor">Taylor</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image52.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-w-350-px">
+                <div class="blockquote">
+                  <div class="div-user-select-none14"></div>
+                  <div class="span-sans13">
+                    <div class="never-been-a-fan-of-other-clunky-tools">
+                      Never been a fan of other clunky tools.&quot;
+                    </div>
+                    <div
+                      class="approach-the-team-is-taking-with-supercharging-email"
+                    >
+                      approach the team is taking with supercharging email.
+                    </div>
+                    <div
+                      class="resend-is-super-easy-to-set-up-loving-the-modern"
+                    >
+                      &quot;Resend is super easy to set up. Loving the modern
+                    </div>
+                  </div>
+                  <div class="div-relative6">
+                    <div class="span-flex14">
+                      <div class="brek-goin">Brek Goin</div>
+                      <div class="founder-of-hammr">Founder of Hammr</div>
+                    </div>
+                    <div class="div-mr-4">
+                      <div class="div-overflow-hidden">
+                        <div class="span-relative3">
+                          <img class="image4" src="image53.png" />
+                          <div class="span-flex15">
+                            <div class="brek">Brek</div>
+                            <div class="goin">Goin</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="div-ml-2-5">
+                        <div class="span-relative2">
+                          <img class="image5" src="image54.png" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span">
+          <div class="beyond-expectations">Beyond expectations</div>
+          <div
+            class="stories-empower-businesses-and-fuel-growth-across-industries-and-individuals"
+          >
+            stories, empower businesses, and fuel growth across industries and
+            individuals.
+          </div>
+          <div
+            class="resend-is-driving-remarkable-developer-experiences-that-enable-success"
+          >
+            Resend is driving remarkable developer experiences that enable
+            success
+          </div>
+        </div>
+        <div class="ellipse-34"></div>
+      </div>
+      <div class="div-footer">
+        <div class="rectangle9"></div>
+        <div class="footer-container">
+          <div class="frame51">
+            <div class="frame-118">
+              <div class="c-2-c">C2C</div>
+              <div class="frame-117">
+                <div class="managed-by-ethereum-technology">
+                  Managed by Ethereum technology
+                </div>
+                <div class="frame52">
+                  <div class="frame53">
+                    <div class="rectangle10"></div>
+                    <svg
+                      class="frame54"
+                      width="16"
+                      height="17"
+                      viewBox="0 0 16 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.5333 5.66358C15.5333 5.53025 15.3333 4.46358 14.8666 3.99692C14.2666 3.33025 13.5999 3.26358 13.2666 3.26358H13.1999C11.1333 3.13025 8.06659 3.13025 7.99992 3.13025C7.99992 3.13025 4.86659 3.13025 2.79992 3.26358H2.73325C2.39992 3.26358 1.73325 3.33025 1.13325 3.99692C0.666585 4.53025 0.466585 5.59692 0.466585 5.73025C0.466585 5.79692 0.333252 6.99692 0.333252 8.26358V9.39692C0.333252 10.6636 0.466585 11.8636 0.466585 11.9303C0.466585 12.0636 0.666585 13.1302 1.13325 13.5969C1.66659 14.1969 2.33325 14.2636 2.73325 14.3302H2.93325C4.13325 14.4636 7.79992 14.4636 7.93325 14.4636C7.93325 14.4636 11.0666 14.4636 13.1333 14.3302H13.1999C13.5333 14.2636 14.1999 14.1969 14.7999 13.5969C15.2666 13.0636 15.4666 11.9969 15.4666 11.8636C15.4666 11.7969 15.5999 10.5969 15.5999 9.33025V8.19692C15.6666 6.99692 15.5333 5.73025 15.5333 5.66358ZM10.5999 8.93025L6.59992 11.0636C6.53325 11.0636 6.53325 11.1302 6.46659 11.1302C6.39992 11.1302 6.33325 11.1302 6.33325 11.0636C6.26659 10.9969 6.19992 10.9302 6.19992 10.7969V6.46358C6.19992 6.33025 6.26659 6.26358 6.33325 6.19692C6.39992 6.13025 6.53325 6.13025 6.66659 6.19692L10.6666 8.33025C10.7999 8.39692 10.8666 8.46358 10.8666 8.59692C10.8666 8.73025 10.7333 8.86358 10.5999 8.93025Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                  <div class="frame55">
+                    <div class="rectangle10"></div>
+                    <svg
+                      class="frame56"
+                      width="16"
+                      height="17"
+                      viewBox="0 0 16 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.35884 3.24268C4.85049 3.24268 3.31791 3.8644 3.04295 3.98865C2.76799 4.1129 2.4628 4.50077 2.1165 5.14092C1.76974 5.78108 1.49147 6.52942 1.03935 7.63019C0.587701 8.73097 0.482347 10.8532 0.497465 11.5009C0.512583 12.1486 0.586756 12.6546 1.25053 13.0377C1.91383 13.4204 2.5006 13.821 3.11807 14.0619C3.73602 14.3029 4.15743 14.4763 4.44373 14.2353C4.73002 13.9944 4.91852 13.5725 4.91852 13.5725C4.91852 13.5725 5.1897 13.196 4.67758 12.9701C4.16546 12.7438 3.9094 12.5856 3.9316 12.3522C3.95428 12.1188 3.9916 11.9908 4.11963 12.021C4.24766 12.0513 4.54955 12.5931 5.70938 12.8416C6.86921 13.0901 7.99975 13.0528 7.99975 13.0528C7.99975 13.0528 9.13077 13.0906 10.2906 12.8416C11.4504 12.5931 11.7518 12.0513 11.8799 12.021C12.0079 11.9908 12.0452 12.1188 12.0679 12.3517C12.0906 12.5856 11.8345 12.7438 11.3224 12.9701C10.8103 13.196 11.0815 13.5725 11.0815 13.5725C11.0815 13.5725 11.27 13.9939 11.5563 14.2353C11.8421 14.4763 12.264 14.3029 12.8814 14.0619C13.4989 13.821 14.0862 13.4208 14.7495 13.0377C15.4132 12.6546 15.4874 12.1486 15.5025 11.5009C15.5176 10.8536 15.4123 8.73097 14.9602 7.63019C14.5085 6.52942 14.2298 5.78108 13.883 5.14092C13.5372 4.50077 13.2315 4.1129 12.957 3.98818C12.6821 3.8644 11.149 3.24268 10.6407 3.24268C10.1323 3.24268 9.9821 3.597 9.9821 3.597L9.80493 3.98865C9.80493 3.98865 8.61439 3.76236 8.00779 3.76188C7.40118 3.76188 6.19505 3.98865 6.19505 3.98865L6.01788 3.59653C6.01788 3.59653 5.86765 3.24268 5.35884 3.24268ZM5.41411 7.94247H5.43301C6.17426 7.94247 6.77473 8.59113 6.77473 9.39096C6.77473 10.1913 6.17426 10.8395 5.43301 10.8395C4.69175 10.8395 4.09129 10.1913 4.09129 9.39096C4.09082 8.59869 4.68042 7.95334 5.41411 7.94247ZM10.567 7.94247H10.5859C11.3196 7.95334 11.9087 8.59916 11.9087 9.39096C11.9087 10.1913 11.3082 10.8395 10.567 10.8395C9.82525 10.8395 9.22525 10.1913 9.22525 9.39096C9.22525 8.59113 9.82525 7.94247 10.567 7.94247Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                  <div class="frame57">
+                    <div class="rectangle10"></div>
+                    <svg
+                      class="frame58"
+                      width="16"
+                      height="17"
+                      viewBox="0 0 16 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_1_369)">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M8 0.796875C3.58233 0.796875 0 4.46921 0 8.99921C0 12.6235 2.29233 15.6982 5.471 16.7825C5.871 16.8585 6.01767 16.6049 6.01767 16.3882C6.01767 16.1925 6.01 15.5465 6.00667 14.8612C3.781 15.3572 3.31133 13.8932 3.31133 13.8932C2.94733 12.9452 2.423 12.6932 2.423 12.6932C1.69733 12.1839 2.478 12.1945 2.478 12.1945C3.28133 12.2522 3.70433 13.0395 3.70433 13.0395C4.41767 14.2935 5.57567 13.9312 6.03233 13.7215C6.104 13.1915 6.31133 12.8295 6.54 12.6249C4.76333 12.4172 2.89533 11.7139 2.89533 8.57088C2.89533 7.67554 3.20767 6.94354 3.71967 6.36921C3.63633 6.16254 3.36267 5.32821 3.797 4.19854C3.797 4.19854 4.469 3.97821 5.99767 5.03921C6.63567 4.85754 7.32033 4.76654 8 4.76321C8.68 4.76654 9.365 4.85754 10.0043 5.03921C11.531 3.97821 12.202 4.19854 12.202 4.19854C12.6373 5.32854 12.3633 6.16254 12.2803 6.36921C12.7937 6.94354 13.1037 7.67554 13.1037 8.57088C13.1037 11.7215 11.2323 12.4152 9.45067 12.6182C9.73767 12.8729 9.99333 13.3719 9.99333 14.1372C9.99333 15.2345 9.98433 16.1179 9.98433 16.3882C9.98433 16.6065 10.1283 16.8622 10.5337 16.7815C13.7107 15.6959 16 12.6222 16 8.99921C16 4.46921 12.4183 0.796875 8 0.796875Z"
+                          fill="black"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M3.02993 12.5739C3.01227 12.6149 2.94993 12.6269 2.89293 12.5989C2.83493 12.5723 2.80227 12.5166 2.82093 12.4756C2.83827 12.4336 2.90093 12.4223 2.95893 12.4499C3.01693 12.4769 3.04993 12.5333 3.02993 12.5739ZM3.35393 12.9446C3.31593 12.9806 3.24127 12.9639 3.1906 12.9066C3.13827 12.8493 3.1286 12.7729 3.16727 12.7363C3.2066 12.6996 3.27893 12.7169 3.33127 12.7739C3.3836 12.8319 3.39393 12.9079 3.35393 12.9446ZM3.66927 13.4169C3.6206 13.4519 3.54027 13.4193 3.4906 13.3463C3.4416 13.2729 3.4416 13.1856 3.49193 13.1506C3.5416 13.1156 3.62027 13.1473 3.6706 13.2196C3.7196 13.2936 3.7196 13.3813 3.66927 13.4169ZM4.1016 13.8736C4.0576 13.9229 3.96427 13.9096 3.89593 13.8419C3.82593 13.7759 3.8066 13.6819 3.8506 13.6323C3.89493 13.5826 3.98893 13.5966 4.0576 13.6636C4.12727 13.7296 4.14827 13.8243 4.1016 13.8736ZM4.6976 14.1383C4.67827 14.2026 4.58827 14.2316 4.4976 14.2046C4.4076 14.1763 4.34827 14.1013 4.36627 14.0363C4.38527 13.9716 4.4756 13.9409 4.56693 13.9703C4.65693 13.9983 4.7166 14.0729 4.6976 14.1383ZM5.3526 14.1876C5.3546 14.2553 5.27793 14.3109 5.1826 14.3123C5.08693 14.3146 5.0096 14.2599 5.0086 14.1933C5.0086 14.1249 5.08393 14.0696 5.17927 14.0679C5.2746 14.0659 5.3526 14.1203 5.3526 14.1876ZM5.9616 14.0813C5.97293 14.1473 5.90693 14.2149 5.8126 14.2329C5.7196 14.2503 5.6336 14.2096 5.62193 14.1443C5.61027 14.0766 5.6776 14.0086 5.77027 13.9909C5.86493 13.9743 5.9496 14.0146 5.9616 14.0813Z"
+                          fill="black"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_369">
+                          <rect
+                            width="16"
+                            height="16"
+                            fill="white"
+                            transform="translate(0 0.796875)"
+                          />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="frame59">
+                    <div class="rectangle10"></div>
+                    <svg
+                      class="frame60"
+                      width="16"
+                      height="17"
+                      viewBox="0 0 16 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14.9116 5.04851C14.3912 5.27952 13.8389 5.43089 13.2733 5.49753C13.8692 5.14129 14.3151 4.5803 14.5275 3.91934C13.9677 4.25179 13.3551 4.48602 12.7162 4.61191C12.4494 4.32716 12.1269 4.10026 11.7688 3.94529C11.4107 3.79033 11.0245 3.7106 10.6343 3.71106C9.0592 3.71106 7.78215 4.98812 7.78215 6.56348C7.78215 6.78671 7.80727 7.00431 7.85609 7.21343C5.48543 7.09434 3.38344 5.95896 1.97657 4.23317C1.72282 4.6685 1.58956 5.16354 1.59049 5.66742C1.59049 6.65689 2.09397 7.53009 2.85936 8.04147C2.40639 8.0271 1.96342 7.9047 1.56734 7.68446L1.56706 7.72059C1.56706 9.10234 2.55032 10.2549 3.85532 10.5174C3.43512 10.6312 2.99454 10.6478 2.56697 10.5659C2.93019 11.6991 3.98345 12.524 5.23143 12.5469C4.22113 13.3399 2.97338 13.7701 1.68898 13.768C1.45897 13.768 1.23178 13.7545 1.00854 13.728C2.31271 14.5662 3.83069 15.0111 5.38101 15.0095C10.6278 15.0095 13.4966 10.6633 13.4966 6.89396C13.4966 6.77035 13.494 6.64701 13.4887 6.52453C14.0472 6.1213 14.5291 5.62142 14.9116 5.04851Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                  <div class="frame61">
+                    <div class="rectangle10"></div>
+                    <svg
+                      class="frame62"
+                      width="16"
+                      height="17"
+                      viewBox="0 0 16 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.1465 3.86664L12.9772 14.097C12.8136 14.819 12.3868 14.9986 11.7802 14.6586L8.47498 12.2229L6.88017 13.7568C6.7037 13.9333 6.55605 14.081 6.21592 14.081L6.45336 10.7146L12.5793 5.17911C12.8457 4.94167 12.5216 4.81008 12.1654 5.04755L4.59217 9.81611L1.33183 8.79567C0.622639 8.57424 0.609827 8.08646 1.47942 7.74633L14.232 2.83336C14.8224 2.61196 15.339 2.96489 15.1465 3.86664Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                  <div class="frame63">
+                    <div class="rectangle10"></div>
+                    <svg
+                      class="frame64"
+                      width="16"
+                      height="17"
+                      viewBox="0 0 16 17"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14.9694 8.82391C14.969 8.39821 14.7997 7.99006 14.4986 7.68904C14.1976 7.38803 13.7895 7.21872 13.3638 7.21827C12.9739 7.21781 12.5975 7.36027 12.3056 7.61869C11.2437 6.93918 9.82685 6.51111 8.2641 6.46483L9.22043 3.19428L11.5682 3.63054C11.5682 3.64973 11.5643 3.66779 11.5654 3.68698C11.5794 3.95562 11.6994 4.20773 11.8991 4.38801C12.0987 4.5683 12.3617 4.66204 12.6304 4.64867C12.899 4.63459 13.151 4.51456 13.3312 4.31493C13.5115 4.11529 13.6052 3.85232 13.5918 3.5837C13.5778 3.31506 13.4578 3.06295 13.2581 2.88267C13.0585 2.70238 12.7955 2.60864 12.5268 2.62201C12.3557 2.63112 12.1896 2.68354 12.0443 2.77435C11.8989 2.86517 11.779 2.9914 11.6958 3.14123L11.6949 3.14095L8.86572 2.61523L7.73895 6.46426C6.17225 6.50575 4.75087 6.93157 3.68449 7.60966C3.39385 7.35676 3.02143 7.21771 2.63616 7.21827C2.21048 7.21879 1.80238 7.38812 1.50138 7.68913C1.20037 7.99013 1.03104 8.39823 1.03052 8.82391C1.03052 9.37135 1.31242 9.87647 1.769 10.1711C1.74046 10.3322 1.72583 10.4956 1.72526 10.6593C1.72526 12.9766 4.53472 14.8621 7.98812 14.8621C11.4415 14.8621 14.2504 12.9766 14.2504 10.659C14.2504 10.4987 14.2357 10.3407 14.2095 10.1849C14.4413 10.0412 14.6326 9.84088 14.7655 9.60276C14.8984 9.36465 14.9688 9.09661 14.9694 8.82391ZM5.01161 9.91654C5.01165 9.78697 5.03721 9.65867 5.08682 9.53898C5.13644 9.41929 5.20915 9.31054 5.3008 9.21894C5.39245 9.12735 5.50124 9.0547 5.62096 9.00515C5.74068 8.9556 5.86899 8.93012 5.99856 8.93016C6.12813 8.93019 6.25643 8.95575 6.37612 9.00537C6.49581 9.05499 6.60456 9.1277 6.69616 9.21934C6.78775 9.31099 6.8604 9.41978 6.90995 9.5395C6.9595 9.65922 6.98498 9.78753 6.98494 9.9171C6.98487 10.1788 6.88085 10.4297 6.69576 10.6147C6.51067 10.7997 6.25968 10.9036 5.998 10.9035C5.73632 10.9034 5.48538 10.7994 5.3004 10.6143C5.11542 10.4292 5.01154 10.1782 5.01161 9.91654ZM10.3139 12.5855C10.2846 12.6159 9.57655 13.3364 7.97655 13.3364C6.36808 13.3364 5.7247 12.6061 5.69845 12.575C5.65777 12.5241 5.6384 12.4593 5.64441 12.3944C5.65042 12.3294 5.68134 12.2694 5.73069 12.2267C5.78004 12.1841 5.84398 12.1622 5.9091 12.1657C5.97422 12.1692 6.03546 12.1978 6.07997 12.2454C6.09464 12.2612 6.63136 12.8321 7.97627 12.8321C9.34487 12.8321 9.9448 12.2409 9.95101 12.2353C9.99842 12.1919 10.0606 12.1683 10.1248 12.1691C10.189 12.17 10.2505 12.1953 10.2967 12.2399C10.343 12.2844 10.3705 12.345 10.3737 12.4091C10.3769 12.4733 10.3555 12.5365 10.3139 12.5855ZM10.1178 10.9033C9.98823 10.9034 9.85994 10.8779 9.74022 10.8284C9.62051 10.7789 9.51173 10.7063 9.42008 10.6147C9.32843 10.5231 9.25572 10.4144 9.20609 10.2947C9.15646 10.1751 9.13089 10.0468 9.13083 9.91724C9.13078 9.78769 9.15624 9.6594 9.20577 9.53969C9.25529 9.41997 9.32791 9.31119 9.41948 9.21954C9.51105 9.1279 9.61977 9.05518 9.73944 9.00555C9.85911 8.95592 9.98739 8.93035 10.1169 8.9303C10.3786 8.93018 10.6296 9.03401 10.8146 9.21894C10.9997 9.40387 11.1038 9.65476 11.1039 9.9164C11.104 10.178 11.0002 10.429 10.8152 10.6141C10.6303 10.7992 10.3794 10.9032 10.1178 10.9033Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-116">
+            <div class="frame65">
+              <div class="frame66">
+                <div class="grants">Grants</div>
+                <div class="generator">Generator</div>
+                <div class="disclaimer">Disclaimer</div>
+                <div class="careers">Careers</div>
+              </div>
+              <div class="ether">Ether</div>
+            </div>
+            <div class="frame67">
+              <div class="frame68">
+                <div class="frame69">
+                  <div class="services">Services</div>
+                  <div class="newsletter">Newsletter</div>
+                  <div class="blog">Blog</div>
+                </div>
+                <div class="get-connected">Get Connected</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const menuIcon = document.getElementById('menu-icon');
+        const sidebar = document.getElementById('sidebar');
+
+        menuIcon.addEventListener('click', function(event) {
+            event.stopPropagation();
+            sidebar.classList.toggle('active');
+        });
+
+        document.addEventListener('click', function(event) {
+            const isClickInsideSidebar = sidebar.contains(event.target);
+            const isClickInsideMenuIcon = menuIcon.contains(event.target);
+            if (!isClickInsideSidebar && !isClickInsideMenuIcon) {
+                sidebar.classList.remove('active');
+            }
+        });
+    });
+    const messages = ["Blockchain", "Decentralize", "Cryptocurrency"];
+  const parent = document.getElementById('parent');
+  const border = document.getElementById('border');
+  let currentMessageIndex = 0;
+
+  function animateText(text, index) {
+    parent.textContent = text.substring(0, index);
+    border.style.borderLeftColor = 'black';
+    setTimeout(() => {
+      if (index < text.length) {
+        animateText(text, index + 1);
+      } else {
+        border.style.borderLeftColor = 'transparent';
+        setTimeout(() => {
+          currentMessageIndex = (currentMessageIndex + 1) % messages.length;
+          animateText(messages[currentMessageIndex], 0);
+        }, 1000);
+      }
+    }, 200);
+  }
+
+  animateText(messages[currentMessageIndex], 0);
+
+  let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
+
+valueDisplays.forEach((valueDisplay) => {
+  let startValue = 0;
+  let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+  let duration = Math.floor(interval / endValue);
+  let counter = setInterval(function () {
+    startValue += 1;
+    valueDisplay.textContent = startValue;
+    if (startValue == endValue) {
+      clearInterval(counter);
+    }
+  }, duration);
+});
+    </script>
+  </body>
+</html>
